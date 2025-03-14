@@ -1,1 +1,9 @@
 # Sistemas-distribuidos
+Hemos diseñado dos sistemas de comunicación distribuida, uno de estos basados en una comunicación directa y el otro en una comunicación indirecta. Los principales objetivos de estos sistemas son recolectar datos de los diversos sensores disponibles, que detectan parámetros de la calidad del aire y de la contaminación (entre 2 y N sensores), y enviarlos a un conjunto de servidores que los procesan, generan una serie de coeficientes y los almacenan en una base de datos. Posteriormente estos datos se redirigen a cada uno de los terminales de los clientes del sistema y se muestran en tiempo real los datos obtenidos mediante una gráfica.  
+
+Las metas de ambos sistemas es poder llevar a cabo una comunicación entre diferentes máquinas mediante una comunicación directa (los componentes del sistema se conocen entre sí) y mediante una comunicación indirecta (los componentes del sistema se comunican a través de un intermediario) y que además estos sean lo más eficiente posible. 
+
+# Dystributed-systems
+We have designed two distributed communication systems, one based on direct communication and the other on indirect communication. The main objectives of these systems are to collect data from various sensors that detect air quality and pollution parameters (ranging from 2 to N sensors) and send them to a set of servers for processing. The servers generate a series of coefficients and store them in a database. Subsequently, this data is redirected to each of the system's client terminals and displayed in real-time through a graph.
+
+The goal of both systems is to enable communication between different machines via direct communication (where the system components are aware of each other) and indirect communication (where the system components communicate through an intermediary), while ensuring that the communication is as efficient as possible.
